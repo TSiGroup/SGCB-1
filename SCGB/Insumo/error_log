@@ -1,0 +1,13 @@
+[03-Apr-2015 15:03:26 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tsigroup/public_html/SCGB/Insumo/mod_insumo.php on line 47
+[03-Apr-2015 15:03:26 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tsigroup/public_html/SCGB/Insumo/mod_insumo.php on line 65
+[03-Apr-2015 15:03:26 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tsigroup/public_html/SCGB/Insumo/mod_insumo.php on line 106
+[03-Apr-2015 15:16:51 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tsigroup/public_html/SCGB/Insumo/mod_insumo.php on line 47
+[03-Apr-2015 15:16:51 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tsigroup/public_html/SCGB/Insumo/mod_insumo.php on line 65
+[03-Apr-2015 15:16:51 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tsigroup/public_html/SCGB/Insumo/mod_insumo.php on line 106
+[03-Apr-2015 15:16:57 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tsigroup/public_html/SCGB/Insumo/mod_insumo.php on line 47
+[03-Apr-2015 15:16:57 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tsigroup/public_html/SCGB/Insumo/mod_insumo.php on line 65
+[03-Apr-2015 15:16:57 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tsigroup/public_html/SCGB/Insumo/mod_insumo.php on line 106
+[03-Apr-2015 15:17:16 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tsigroup/public_html/SCGB/Insumo/add_insumo.php on line 43
+[03-Apr-2015 15:17:16 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tsigroup/public_html/SCGB/Insumo/add_insumo.php on line 61
+[03-Apr-2015 15:17:16 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tsigroup/public_html/SCGB/Insumo/add_insumo.php on line 102
+[03-Apr-2015 15:17:16 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/tsigroup/public_html/SCGB/Insumo/add_insumo.php on line 249

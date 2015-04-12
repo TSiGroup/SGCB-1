@@ -1,0 +1,207 @@
+.lista-wid {
+  margin: 10px;
+  padding: 0;
+  list-style-type: none;
+}
+.lista-wid > li {
+  width: 150px;
+  margin: 5px;
+  float: left;
+}
+.lista-wid > li:nth-child(7n+1) { /*aqui cambio la cantidad de los de al lado  7n+1*/
+  clear: left;
+}
+/**
+ * Widget
+ **/
+.wid {
+  text-align: center;
+  border-radius: 10px;
+  background-clip: padding-box;
+  -webkit-box-shadow: 0px 3px 3px 0px #e2e4e7;
+  -moz-box-shadow: 0px 3px 3px 0px #e2e4e7;
+  box-shadow: 0px 3px 3px 0px #e2e4e7;
+}
+.wid__central {
+  padding: 20px 20px 20px 20px;
+  border: 1px solid;
+  -webkit-border-top-left-radius: 10px;
+  -moz-border-radius-topleft: 10px;
+  border-top-left-radius: 10px;
+  -webkit-border-top-right-radius: 10px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius-topright: 10px;
+  -moz-background-clip: padding;
+  border-top-right-radius: 10px;
+  background-clip: padding-box;
+}
+.wid__central,
+.wid__titulo {
+  background-color: #e6e9ed;
+}
+.wid__central,
+.wid__titulo,
+.wid__contexto {
+  border: 1px solid #c8cfd8;
+}
+.wid__icono {
+  font-size: 4.5em;
+}
+.wid__titulo {
+  display: inline;
+  position: relative;
+  bottom: -30px;
+  padding: 2px 10px;
+  border-radius: 5px;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+.wid__contexto {
+  padding: 2em 1.2em 1.2em 1.2em;
+  border-top: 0 none;
+  -webkit-border-bottom-left-radius: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  border-bottom-left-radius: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius-bottomright: 10px;
+  -moz-background-clip: padding;
+  border-bottom-right-radius: 10px;
+  background-clip: padding-box;
+  background-color: #f5f7fa;
+  background-color: #fff;
+}
+.wid__value {
+  position: relative;
+  font-size: 3.5em;
+  line-height: .8em;
+}
+
+/**
+ * Styles
+ **/
+/* Sunflower */
+.wid--grapefruit {
+  position: relative;
+}
+.wid--grapefruit .wid__central,
+.wid--grapefruit .wid__titulo {
+  border-color: #da4453;
+  background-color: #ed5565;
+  color: #9a1e2b;
+}
+.wid--grapefruit .wid__value,
+.wid--grapefruit .wid__value-description {
+  color: #9a1e2b;
+}
+/* Sunflower */
+.wid--sunflower {
+  position: relative;
+}
+.wid--sunflower .wid__central,
+.wid--sunflower .wid__titulo {
+  border-color: #fcbb42;
+  background-color: #ffce54;
+  color: #d58b03;
+}
+.wid--sunflower .wid__value,
+.wid--sunflower .wid__value-description {
+  color: #d58b03;
+}
+/* Dark Gray */
+.wid--dark-gray {
+  position: relative;
+}
+.wid--dark-gray .wid__central,
+.wid--dark-gray .wid__titulo {
+  border-color: #434a54;
+  background-color: #656d78;
+  color: #16181b;
+}
+.wid--dark-gray .wid__value,
+.wid--dark-gray .wid__value-description {
+  color: #16181b;
+}
+/* Aqua */
+.wid--aqua {
+  position: relative;
+}
+.wid--aqua .wid__central,
+.wid--aqua .wid__titulo {
+  border-color: #3bafda;
+  background-color: #4fc1e9;
+  color: #1c7393;
+}
+.wid--aqua .wid__value,
+.wid--aqua .wid__value-description {
+  color: #1c7393;
+}
+/* Blue Jeans */
+.wid--blue-jeans {
+  position: relative;
+}
+.wid--blue-jeans .wid__central,
+.wid--blue-jeans .wid__titulo {
+  border-color: #4a89dc;
+  background-color: #5d9cec;
+  color: #1f57a1;
+}
+.wid--blue-jeans .wid__value,
+.wid--blue-jeans .wid__value-description {
+  color: #1f57a1;
+}
+/* Grass */
+.wid--grass {
+  position: relative;
+}
+.wid--grass .wid__central,
+.wid--grass .wid__titulo {
+  border-color: #8cc152;
+  background-color: #a0d468;
+  color: #587f2e;
+}
+.wid--grass .wid__value,
+.wid--grass .wid__value-description {
+  color: #587f2e;
+}
+/* Pink Rose */
+.wid--pink-rose {
+  position: relative;
+}
+.wid--pink-rose .wid__central,
+.wid--pink-rose .wid__titulo {
+  border-color: #d770ad;
+  background-color: #ec87c0;
+  color: #b0317c;
+}
+.wid--pink-rose .wid__value,
+.wid--pink-rose .wid__value-description {
+  color: #b0317c;
+}
+/* Pink Rose */
+.wid--mint {
+  position: relative;
+}
+.wid--mint .wid__central,
+.wid--mint .wid__titulo {
+  border-color: #37bc9b;
+  background-color: #48cfad;
+  color: #206d5a;
+}
+.wid--mint .wid__value,
+.wid--mint .wid__value-description {
+  color: #206d5a;
+}
+/*
+ * Mixin
+ */
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+.cf:after {
+  clear: both;
+}
